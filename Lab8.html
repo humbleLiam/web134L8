@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<script>
+/*
+* Written by: Liam Humble
+* Lab8: javaScriptBasics
+* web134 Humber college
+*/
+
+    // part 1 
+
+    num1 = 10;
+    num2 = 5;
+    console.log("addition:" , num1 + num2 , "\n");
+    console.log("Subtraction:" , num1 - num2,  "\n");
+    console.log("Mutiplication:" , num1 * num2,  "\n");
+    console.log("Division:" , num1 / num2,  "\n");
+
+
+    // Part 2
+    firstName = "Liam";
+    lastName = "Humble";
+    fullName = firstName + lastName;
+    console.log("First name:" , firstName, "\nLast name: ", lastName  , "\n");
+    console.log("Concatenated Name :",fullName);
+
+    // Part 3
+    let x = 5;
+    var y = 10;
+    console.log("X value:", x , "Y value", y);
+    x = 7;
+    y =12;
+    console.log("X value:", x , "Y value", y);
+
+    //part 4
+    counter = 0;
+    counter++;
+    counter++;
+    counter++;
+    counter++;
+    counter++;
+    console.log("the counter:", counter);
+
+    //part 5 (a)
+    let text = window.prompt("Please enter two numbers(seperate by whitespace):");
+    var numbers = text.split(" ");
+    const sum = parseInt(numbers[0]) + parseInt(numbers[1]);
+    window.alert("Sum of two numbers: "+  sum);  
+
+
+
+    //part 5(b)
+    let  number  = 27;
+    let  string = "years old";
+
+    let sNumber = number.toString();
+    sNumber = sNumber.concat(" ",string);
+    console.log(sNumber);
+
+</script>
+</html>
+
+
+
